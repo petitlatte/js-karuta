@@ -1,3 +1,6 @@
+/*GENERAL SETTINGS */
+
+
 @charset "UTF-8";
 
 :root {
@@ -10,11 +13,26 @@ body {
 padding:0;
 margin:0;
 background-color: var(--main-color);
-/*background-repeat: no-repeat;
-background-size: cover;
-background-position: center;*/
-height:100vh;
+background:url("../img/background-green-fix.jpg");
+height:100%;
+font-family: 'M PLUS Rounded 1c', sans-serif;
 }
+
+
+h1{
+	font-weight: 500;
+}
+
+h2{
+font-weight: 400;	
+}
+
+p{
+font-weight: 300;
+}
+
+
+
 
 button{
 	padding: 5px 10px;
@@ -31,9 +49,55 @@ button:hover{
 	transition: 1s ease;
 }
 
+
+
+footer {
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	text-align: center;
+}
+
+
+/*CONTAINER A - LANDING PAGE*/
 .conA{
 	margin-left:auto;
 	margin-right:auto;
 	max-width: 1000px;
 }
 
+.conA, #karuta-logo {
+	height:250px;
+	display:block;
+	margin:auto;
+	margin-top:100px;
+}
+
+.conA-alt{
+	display:none;
+}
+
+/*MEDIA QUERIES*/
+
+@media (max-width:1000px) {
+	.conA{
+		display:none;
+	}
+
+	.conA-alt{
+		display:block;
+	}
+
+	.conA-alt p{
+		font-size:30px;
+		margin:20px;
+		padding:10px;
+		margin-top:30px;
+		background-color: white;
+	}
+
+	.conA-alt #karuta-logo{
+		height:200px;
+	}
+}
