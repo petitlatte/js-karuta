@@ -15,3 +15,7 @@ User can start over *page refresh
 
 (References/inspiration' https://www.sitepoint.com/simple-javascript-quiz/)
 
+///////////////////////////////////////////
+
+Steps
+

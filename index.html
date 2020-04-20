@@ -7,8 +7,6 @@
 	<title>かるた●百人一首●</title>
 </head>
 <body>
-	
-
 
 
 <!--LANDING PAGE -->
@@ -18,23 +16,46 @@
 
 	<div class = "conA">
 		<img src = "img/logo.svg" alt = "Karuta logo" id = "karuta-logo">
-	<h2>かるた●百人一首●</h2>
-	<p>ランダムに20枚選んで一枚ずつ表示されます。正しい札を選んでください。</p>
-	<button>始める</button>
-
+		<br>	
+			<h2>かるた●百人一首●</h2>
+			<p>ランダムに20枚選んで一枚ずつ表示されます。正しい札を選んでください。</p>
+			
+			<button class = "button" id ="button-start">始める</button>
 	</div>
+
+<!--MAIN GAME -->
+
+
+	<div class = "conB">
+			<img src = "img/logo.svg" alt = "Karuta logo" id = "karuta-logo">	
+		
+		<div id="quiz">
+			
+		<div id = "board-left">
+		<img src = "img/cards/001.png" alt ="card001">
+		</div>
+
+		<div id = "board-right">
+			<img src = "img/cards/001.png" alt ="card001">
+						<img src = "img/cards/001.png" alt ="card001">
+									<img src = "img/cards/001.png" alt ="card001">
+												<img src = "img/cards/001.png" alt ="card001">
+		</div>
+
+		</div>
+
+		<button id="submit">答えを見る</button>
+		<div id="results"></div>	
+	</div>
+
+
+
+	<!--Error Container-->
 
 	<div class = "conA-alt">
 		<img src = "img/logo.svg" alt = "Karuta logo" id = "karuta-logo">
 	<p>This application is compatible with desktop and tablet users. <br/> このアプリケーションはお使いの機種ではご利用できません。</p>
 	</div>	
-
-	<!--GAME -->
-
-	<div class = "conB">
-		<div id = "game"></div>		
-	</div>
-
 
 
 </main>
@@ -46,9 +67,34 @@
 
 </footer>
 
-<!--SCRIPTS-->
 
-<script type="text/javascript" src = "data.js"></script>
-<script type="text/javascript" src = "js/script.js"></script>	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--END OF PAGE-->
+
+
+
+
+
+
+
+
+
+<!--SCRIPTS-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript" src = "js/data.js"></script>
+	<script type="text/javascript" src = "js/script.js"></script>	
 </body>
 </html>
