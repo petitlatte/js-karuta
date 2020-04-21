@@ -1,21 +1,11 @@
-Karuta
-
-Flow
-
-Landing page. User clicks on start button.
-One card on side, 4 available options.User clicks on one of the options.
-User clicks submit button. 
-displays whether the answer is correct or incorrect. 
-User moves onto next questions.
-
-Repeat until 20 questions have been answered.
-Display results/grade.
-
-User can start over *page refresh
-
-(References/inspiration' https://www.sitepoint.com/simple-javascript-quiz/)
-
-///////////////////////////////////////////
-
 Steps
 
+HTML/CSS
+
+1. Finish container layout
+2. Ensure the buttons are working
+3. 
+
+JS.
+
+1. Assign all cards
