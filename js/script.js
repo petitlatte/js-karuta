@@ -5,6 +5,10 @@ $(document).ready(function(){
 //CARD ARRAYS 
  var Yomifuda = new Array("img/cards/001.png","img/cards/002.png","img/cards/003.png", "img/cards/004.png", "img/cards/005.png");
 
+
+
+
+
 //RANDOMIZE CARDS
 
 function choosePic() {
@@ -36,3 +40,5 @@ $('#button-start').click(function(e){
 choosePic();
 
 });
+
+//test
